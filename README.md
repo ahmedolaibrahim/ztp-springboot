@@ -28,10 +28,10 @@ git clone https://github.com/ahmedolaibrahim/ztp-springboot.git
 
 **2. Create MongoDB database**
 ```bash
-use ztp_bootspring;
+ use ztp_bootspring
 ```
 
-**3. Change mongoDb access credentials to suit your mongo deployment
+**3. Change mongoDb access credentials to suit your mongo deployment**
 
 + open `src/main/resources/application.properties`
 
@@ -49,6 +49,7 @@ Alternatively, you can run the app without packaging it using -
 ```bash
 mvn spring-boot:run
 ```
+The app will start running at <http://localhost:8080>.
 
 **5. Running Tests**
 
@@ -56,7 +57,10 @@ mvn spring-boot:run
 mvn test
 ```
 
-The app will start running at <http://localhost:8080>.
+if tests runs successfully you should have 
+![Image 1](tests.png)
+
+
 
 ## Routes
 
