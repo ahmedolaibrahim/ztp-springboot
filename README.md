@@ -69,12 +69,16 @@ if tests runs successfully you should have
 The app defines following routes.
 
    - GET /api/books
-    
+    ![Image 2](getdemo.png)
+
    - POST /api/books
-    
+    ![Image 2](postdemo.png)
+
    - GET /api/books/{bookId}
     
    - PUT /api/books/{bookId}
     
    - DELETE /api/books/{bookId}
+
+
 
