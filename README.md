@@ -51,11 +51,13 @@ mvn spring-boot:run
 ```
 The app will start running at <http://localhost:8080>.
 
-**5. Running Tests**
+## Tests
 
-```bash
-mvn test
-```
+## Running Tests**
+
+  ```bash
+  mvn test
+  ```
 
 if tests runs successfully you should have 
 ![Image 1](tests.png)
